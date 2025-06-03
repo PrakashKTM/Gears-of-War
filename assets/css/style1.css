@@ -1,0 +1,24 @@
+.logo{
+    margin-left: 133px;
+   }
+.nav-item{
+   
+    margin: 0px 50px 0px 0px;
+}
+.nav-link{
+    color:white;
+    font-weight: 900;
+    
+}
+.sidenav{
+    
+    margin-left: -13px;
+}
+.nav-ul{
+    background-color: #c91c1c;
+}
+
+.ah:hover:not(.active){
+    background-color: #10ee1b;
+    color: rgb(224, 40, 40);
+}

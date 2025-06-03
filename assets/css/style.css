@@ -1,0 +1,62 @@
+.logo{
+ margin-left: 160px;
+}
+
+@media only screen and (max-width:1024px){
+    .logo{
+        margin-left: 110px;
+    }
+}
+@media only screen and (max-width:1440px){
+    .logo{
+        margin-left: 110px;
+    }
+}
+@media only screen and (min-width:2560px){
+    .logo{
+        margin-left: 170px;
+    }
+}
+.nav-item{
+   
+    margin: 0px 50px 0px 0px;
+}
+
+@media only screen and (max-width:1024px){
+    .nav-item{
+   
+        margin: 0px 50px 0px 0px;
+    }
+}
+
+@media only screen and (min-width:1440px){
+    .nav-item{
+   
+        margin: 0px 60px 0px 0px;
+    }
+}
+@media only screen and (min-width:2560px){
+    .nav-item{
+   
+        margin: 0px 70px 0px 0px;
+    }
+}
+.nav-link{
+    color:white;
+    font-weight: 900;
+    
+}
+.carousel{
+    margin-top: 100px;
+    margin-bottom: 140px;
+}
+
+.brands{
+    margin-left: 60px;
+}
+a{
+    transition: 300ms;
+}
+.gimage{
+    height: 200px;
+}

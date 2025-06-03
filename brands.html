@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gears of War</title>
+    <link rel="icon" href="./assets/images/Gears-of-War-Skull-icon.png">
+<!--start css -->
+     <!-- CDN -->
+     <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> -->
+     <!-- local css file -->
+
+     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+     <link rel="stylesheet" href="./assets/css/style1.css">
+<!-- end css -->
+</head>
+<body>
+ <div class="container-fluid">
+       <!-- navbar -->
+       <div class="container-flow" >
+        <!-- navbar -->
+        
+        <nav class="navbar navbar-expand-sm fixed-top shadow" 
+        style="background-image: url(./assets/images/background/bg3.jpg);
+        background-size: cover;" 
+        >
+     
+          <div class="container-fluid">
+               <a class="navbar-brand"  href="#">
+                    <img src="./assets/images/Gears-of-War-Skull-icon.png"
+                    class="logo" alt="logo" style="height:80px;"></a>
+            <!-- Links -->
+            <ul class="navbar-nav">
+             
+              <li class="nav-item">
+                <a class="nav-link" href="#demo">HOME</a>
+              </li>
+              <li class="nav-item">
+               <a class="nav-link"
+               href="#" data-bs-toggle="tooltip" onclick="videos()"
+               title="Temporarily bloked!" 
+                data-bs-placement="bottom">VIDEOS</a>
+             </li>
+              <li class="nav-item bg-white rounded" >
+                <a class="nav-link" style="color: red;" href="./book.html">BOOK NOW</a>
+              </li>
+            
+            </ul>
+          </div>
+        
+        </nav>
+        </div>
+    <div class="row" style="margin-top: 106px;margin-left: -24px;">
+        <div class="col-2">
+          <ul class="nav flex-column position-fixed nav-ul">
+            <li class="p-3 w-100" style="color:white;background-color: red;">BRANDS</li>
+            <li class="nav-item w-100">
+                <a href="#ktm" class="nav-link text-dark p-2 ah">
+                    KTM 
+                    
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-dark p-2 ah" href="#bmw">BMW
+                 
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark p-2 ah" href="#yamaha">YAMAHA
+                 
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark p-2 ah" href="#ducati">DUCATI
+                
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark p-2 ah" href="#pulsor">PULSOR
+                   
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark p-2 ah" href="#royelenfield">ROYEL ENFIELD
+                   
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark p-2 ah" href="#suzuki">SUZUKI
+                   
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark p-2 ah" href="#kawasaki">KAWASAKI
+                   
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark p-2 ah" onclick="others()"
+                 data-bs-toggle="tooltip" title="Comming Soon" 
+                data-bs-placement="top" href="" >OTHERS
+                  
+                   
+                </a>
+              </li>
+          </ul>
+        </div>
+        <div class="col-10">
+          <!-- Main Content Section -->
+  <div class="content">
+    <section id="ktm">
+      <h1 class="w-100 text-center ms-1  mt-2 shadow"
+       style="color: red;border-bottom: 5px solid red;">KTM</h1>
+       <h3 class="ms-3 mt-4 text-primary">KTM RC </h3>
+       <div class="row row-cols-md-2 row-cols-lg-3 ms-5 mt-3 g-2">
+        <div class="col-4">
+            <div class="card shadow" style="width:16rem;">
+                <img class="card-img-top img-fluid" style="height: 175px;"
+                src="./assets/images/ktm/ktm1.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text fw-bold">KTM RC 390 <span class="ms-5 text-danger"> CODE :RC@1</span><br><br>
+                   Price : ₹6000 - ₹15000</p>
+                </div>
+              </div>
+        </div>
+        <div class="col-4">
+            <div class="card shadow" style="width: 16rem;">
+                <img class="card-img-top img-fluid"  style="height: 175px;"
+                src="./assets/images/ktm/ktm7.jpg" alt="Card image cap">
+                <div class="card-body">
+                 <p class="card-text fw-bold">KTM RC 250 <span class="ms-5 text-danger"> CODE :RC@2</span><br><br>
+                   Price : ₹5000 - ₹12000</p>
+                </div>
+              </div>
+        </div>
+        <div class="col-4">
+            <div class="card shadow" style="width: 16rem;">
+                <img class="card-img-top img-fluid" style="height: 175px;"
+                src="./assets/images/ktm/ktm3.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text fw-bold">KTM RC 390 <span class="ms-5 text-danger"> CODE :RC@3</span><br><br>
+                   Price : ₹7000 - ₹18000</p>
+                </div>
+              </div>
+        </div>
+       </div>
+       <h3 class="ms-3 mt-4 text-primary">KTM DUKE </h3>
+       <div class="row row-cols-md-2 row-cols-lg-3 ms-5 mt-3 g-3">
+        <div class="col-4">
+            <div class="card shadow" style="width: 16rem;">
+                <img class="card-img-top img-fluid" style="height: 175px;"
+                 src="./assets/images/ktm/ktm4.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <p class="card-text fw-bold">KTM DUKE 390 <span class="ms-2 text-danger"> CODE :DUKE@1</span><br><br>
+                   Price : ₹7000 - ₹18000</p>
+                </div>
+              </div>
+        </div>
+        <div class="col-4">
+            <div class="card shadow" style="width: 16rem;">
+                <img class="card-img-top img-fluid" style="height: 175px;"
+                src="./assets/images/ktm/ktm5.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text fw-bold">KTM DUKE 390 <span class="ms-2 text-danger"> CODE :DUKE@2</span><br><br>
+                   Price : ₹7000 - ₹16000</p>
+                </div>
+              </div>
+        </div>
+        <div class="col-4">
+            <div class="card shadow" style="width: 16rem;">
+                <img class="card-img-top img-fluid" style="height: 175px;"
+                src="./assets/images/ktm/ktm6.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text fw-bold">KTM DUKE 390 <span class="ms-2 text-danger"> CODE :DUKE@3</span><br><br>
+                   Price : ₹5000 - ₹18000</p>
+                </div>
+              </div>
+        </div>
+       </div>
+       
+    </section>
+    <section id="pulsor">
+      <h1 class="w-100 text-center ms-1 mt-5 shadow"
+       style="color: red;border-bottom: 5px solid red;">PULSOR</h1>
+       <h3 class="ms-3 mt-4 text-primary">PULSOR RS</h3>
+       <div class="row row-cols-md-2 row-cols-lg-3 ms-5 mt-3 g-2">
+        <div class="col-4">
+            <div class="card shadow" style="width: 16rem;">
+                <img class="card-img-top img-fluid" style="height:175px" 
+                 src="./assets/images/pulsor/pulsor1.jpg" alt="Card image cap">
+                <div class="card-body">
+                   <p class="card-text fw-bold">PULSOR RS 200 <span class="ms-3 text-danger"> CODE :RS@1</span><br><br>
+                   Price : ₹5000 - ₹12000</p>
+                </div>
+              </div>
+        </div>
+        <div class="col-4">
+            <div class="card shadow" style="width: 16rem;">
+                <img class="card-img-top img-fluid" style="height:175px"  
+                src="./assets/images/pulsor/pulsor2.jpg" alt="Card image cap">
+                <div class="card-body">
+                   <p class="card-text fw-bold">PULSOR RS 200 <span class="ms-3 text-danger"> CODE :RS@2</span><br><br>
+                   Price : ₹6000 - ₹13000</p>
+                </div>
+              </div>
+        </div>
+        <div class="col-4">
+            <div class="card shadow" style="width: 16rem;">
+                <img class="card-img-top img-fluid" style="height:175px"  
+                src="./assets/images/pulsor/pulsor3.jpg" alt="Card image cap">
+                <div class="card-body">
+                <p class="card-text fw-bold">PULSOR RS 200
+                   <span class="ms-3 text-danger"> CODE :RS@3</span><br><br>
+                   Price : ₹6000 - ₹14000</p>
+                </div>
+              </div>
+        </div>
+       </div>
+       <h3 class="ms-3 mt-4 text-primary">PULSOR NS</h3>
+       <div class="row row-cols-md-2 row-cols-lg-3 ms-5 mt-3 g-3">
+        <div class="col-4">
+            <div class="card shadow" style="width: 16rem;">
+                <img class="card-img-top img-fluid" style="height:175px" 
+                 src="./assets/images/pulsor/pulsor4.jpg" alt="Card image cap">
+                <div class="card-body">
+                   <p class="card-text fw-bold">PULSOR NS 200
+                   <span class="ms-3 text-danger"> CODE : NS@1</span><br><br>
+                   Price : ₹6000 - ₹14000</p>
+                </div>
+              </div>
+        </div>
+        <div class="col-4">
+            <div class="card shadow" style="width: 16rem;">
+                <img class="card-img-top img-fluid" style="height:175px" 
+                 src="./assets/images/pulsor/pulsor5.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text fw-bold">PULSOR NS 200
+                   <span class="ms-3 text-danger"> CODE : NS@2</span><br><br>
+                   Price : ₹5000 - ₹15000</p>
+                </div>
+              </div>
+        </div>
+        <div class="col-4">
+            <div class="card shadow" style="width: 16rem;">
+                <img class="card-img-top img-fluid" style="height:175px" 
+                 src="./assets/images/pulsor/pulsor6.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text fw-bold">PULSOR NS 200
+                   <span class="ms-3 text-danger"> CODE : NS@3</span><br><br>
+                   Price : ₹6000 - ₹16000</p>
+                </div>
+              </div>
+        </div>
+       </div>
+       
+    </section>
+    <section id="kawasaki">
+      <h1 class="w-100 text-center ms-1 mt-5 shadow"
+       style="color: red;border-bottom: 5px solid red;">KAWASAKI</h1>
+       <h3 class="ms-3 mt-4 text-primary">KAWASAKI NINJA H2R</h3>
+       <div class="row row-cols-md-2 row-cols-lg-3 ms-5 mt-3 g-2">
+        <div class="col-4">
+            <div class="card shadow" style="width:16rem;">
+                <img class="card-img-top img-fluid" style="height:175px" 
+                 src="./assets/images/kawasaki/k1.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text fw-bold">NINJA  H2R
+                   <span class="ms-4 text-danger"> CODE : H2R@1</span><br><br>
+                   Price : ₹16000 - ₹50000</p>
+                </div>
+              </div>
+        </div>
+        <div class="col-4">
+            <div class="card shadow" style="width:16rem;">
+                <img class="card-img-top img-fluid" style="height:175px" 
+                 src="./assets/images/kawasaki/k2.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text fw-bold">NINJA H2R
+                   <span class="ms-3 text-danger"> CODE : H2R@2</span><br><br>
+                   Price : ₹12000 - ₹64000</p>
+                </div>
+              </div>
+        </div>
+        <div class="col-4">
+            <div class="card shadow" style="width:16rem;">
+                <img class="card-img-top img-fluid" style="height:175px"  
+                src="./assets/images/kawasaki/k3.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text fw-bold">NINJA H2R
+                   <span class="ms-3 text-danger"> CODE : H2R@3</span><br><br>
+                   Price : ₹12000 - ₹74000</p>
+                </div>
+              </div>
+        </div>
+       </div>
+       <h3 class="ms-3 mt-4 text-primary">KAWASAKI Z900</h3>
+       <div class="row row-cols-md-2 row-cols-lg-3 ms-5 mt-3 g-3">
+        <div class="col-4">
+            <div class="card shadow" style="width:16rem;">
+                <img class="card-img-top img-fluid" style="height:175px" 
+                 src="./assets/images/kawasaki/k4.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text fw-bold">KAWASAKI Z900
+                   <span class="ms-1 text-danger"> CODE : Z900@1</span><br><br>
+                   Price : ₹6000 - ₹34000</p>
+                </div>
+              </div>
+        </div>
+        <div class="col-4">
+            <div class="card shadow" style="width:16rem;">
+                <img class="card-img-top img-fluid" style="height:175px"
+                 src="./assets/images/kawasaki/k5.jpg" alt="Card image cap">
+                <div class="card-body">
+                <p class="card-text fw-bold">KAWASAKI Z900
+                   <span class="ms-1 text-danger"> CODE : Z900@2</span><br><br>
+                   Price : ₹6000 - ₹24000</p>
+                </div>
+              </div>
+        </div>
+        <div class="col-4">
+            <div class="card shadow" style="width:16rem;">
+                <img class="card-img-top img-fluid" style="height:175px"  
+                src="./assets/images/kawasaki/k6.jpg" alt="Card image cap">
+                <div class="card-body">
+                 <p class="card-text fw-bold">KAWASAKI Z900
+                   <span class="ms-1 text-danger"> CODE : Z900@3</span><br><br>
+                   Price : ₹6000 - ₹24000</p>
+                </div>
+              </div>
+        </div>
+       </div>
+       
+    </section>
+    <section id="royelenfield">
+      <h1 class="w-100 text-center ms-1 mt-5 shadow"
+       style="color: red;border-bottom: 5px solid red;">ROYEL ENFIELD</h1>
+       <h3 class="ms-3 mt-4 text-primary">ROYEL ENFIELD CLASIC-350</h3>
+       <div class="row row-cols-md-2 row-cols-lg-3 ms-5 mt-3 g-2">
+        <div class="col-4">
+            <div class="card shadow" style="width:16rem;">
+                <img class="card-img-top img-fluid" style="height:175px" 
+                 src="./assets/images/royel enfield/ry1.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text fw-bold">CLASIC-350
+                   <span class="ms-3 text-danger"> CODE : C350@1</span><br><br>
+                   Price : ₹6000 - ₹14000</p>
+                </div>
+              </div>
+        </div>
+        <div class="col-4">
+            <div class="card shadow" style="width:16rem;">
+                <img class="card-img-top img-fluid" style="height:175px" 
+                 src="./assets/images/royel enfield/ry2.jpg" alt="Card image cap">
+                <div class="card-body">
+                <p class="card-text fw-bold">CLASIC-350
+                   <span class="ms-3 text-danger"> CODE : C350@2</span><br><br>
+                   Price : ₹6000 - ₹18000</p>
+                </div>
+              </div>
+        </div>
+        <div class="col-4">
+            <div class="card shadow" style="width:16rem;">
+                <img class="card-img-top img-fluid" style="height:175px" 
+                 src="./assets/images/royel enfield/ry3.jpg" alt="Card image cap">
+                <div class="card-body">
+                   <p class="card-text fw-bold">CLASIC-350
+                   <span class="ms-3 text-danger"> CODE : C350@3</span><br><br>
+                   Price : ₹7000 - ₹19000</p>
+                </div>
+              </div>
+        </div>
+       </div>
+       <h3 class="ms-3 mt-4 text-primary">ROYEL ENFIELD GT-650</h3>
+       <div class="row row-cols-md-2 row-cols-lg-3 ms-5 mt-3 g-3">
+        <div class="col-4">
+            <div class="card shadow" style="width:16rem;">
+                <img class="card-img-top img-fluid" style="height:175px" 
+                 src="./assets/images/royel enfield/ry4.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <p class="card-text fw-bold">GT-650
+                   <span class="ms-3 text-danger"> CODE : GT650@2</span><br><br>
+                   Price : ₹12000 - ₹23000</p>
+                </div>
+              </div>
+        </div>
+        <div class="col-4">
+            <div class="card shadow" style="width:16rem;">
+                <img class="card-img-top img-fluid" style="height:175px"  
+                src="./assets/images/royel enfield/ry5.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text fw-bold">GT-650
+                   <span class="ms-3 text-danger"> CODE : GT650@2</span><br><br>
+                   Price : ₹12000 - ₹17000</p>
+                </div>
+              </div>
+        </div>
+        <div class="col-4">
+            <div class="card shadow" style="width:16rem;">
+                <img class="card-img-top img-fluid" style="height:175px" 
+                 src="./assets/images/royel enfield/ry6.jpg" alt="Card image cap">
+                <div class="card-body">
+                     <p class="card-text fw-bold">GT-650
+                   <span class="ms-3 text-danger"> CODE : GT650@3</span><br><br>
+                   Price : ₹12000 - ₹19000</p>
+                </div>
+              </div>
+        </div>
+       </div>
+       
+    </section>
+    <section id="yamaha">
+      <h1 class="w-100 text-center ms-1 mt-5 shadow"
+       style="color: red;border-bottom: 5px solid red;">YAMAHA</h1>
+       <h3 class="ms-3 mt-4 text-primary">YAMAHA R15</h3>
+       <div class="row row-cols-md-2 row-cols-lg-3 ms-5 mt-3 g-2">
+        <div class="col-4">
+            <div class="card shadow" style="width:16rem;">
+                <img class="card-img-top img-fluid" style="height:175px" 
+                 src="./assets/images/yamaha/y1.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text fw-bold">YAMAHA R15
+                   <span class="ms-3 text-danger"> CODE : R15@1</span><br><br>
+                   Price : ₹6000 - ₹14000</p>
+                </div>
+              </div>
+        </div>
+        <div class="col-4">
+            <div class="card shadow" style="width:16rem;">
+                <img class="card-img-top img-fluid" style="height:175px" 
+                 src="./assets/images/yamaha/y2.jpg" alt="Card image cap">
+                <div class="card-body">
+               <p class="card-text fw-bold">YAMAHA R15
+                   <span class="ms-3 text-danger"> CODE : R15@2</span><br><br>
+                   Price : ₹6000 - ₹16000</p>
+                </div>
+              </div>
+        </div>
+        <div class="col-4">
+            <div class="card shadow" style="width:16rem;">
+                <img class="card-img-top img-fluid" style="height:175px" 
+                 src="./assets/images/yamaha/y3.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text fw-bold">YAMAHA R15
+                   <span class="ms-3 text-danger"> CODE : R15@3</span><br><br>
+                   Price : ₹6000 - ₹15000</p>
+                </div>
+              </div>
+        </div>
+       </div>
+       <h3 class="ms-3 mt-4 text-primary">YAMAHA MT-15</h3>
+       <div class="row row-cols-md-2 row-cols-lg-3 ms-5 mt-3 g-2">
+        <div class="col-4">
+            <div class="card shadow" style="width:16rem;">
+                <img class="card-img-top img-fluid" style="height:175px" 
+                 src="./assets/images/yamaha/y4.jpg" alt="Card image cap">
+                <div class="card-body">
+                <p class="card-text fw-bold">MT-15
+                   <span class="ms-5 text-danger"> CODE : MT15@1</span><br><br>
+                   Price : ₹6000 - ₹14000</p>
+                </div>
+              </div>
+        </div>
+        <div class="col-4">
+            <div class="card shadow" style="width:16rem;">
+                <img class="card-img-top img-fluid" style="height:175px" 
+                 src="./assets/images/yamaha/y5.jpg" alt="Card image cap">
+                <div class="card-body">
+              <p class="card-text fw-bold">MT-15
+                   <span class="ms-5 text-danger"> CODE : MT15@2</span><br><br>
+                   Price : ₹6000 - ₹17000</p>
+                </div>
+              </div>
+        </div>
+        <div class="col-4">
+            <div class="card shadow" style="width:16rem;">
+                <img class="card-img-top img-fluid" style="height:175px" 
+                 src="./assets/images/yamaha/y6.jpg" alt="Card image cap">
+                <div class="card-body">
+                 <p class="card-text fw-bold">MT-15
+                   <span class="ms-5 text-danger"> CODE : MT15@3</span><br><br>
+                   Price : ₹6000 - ₹15000</p>
+                </div>
+              </div>
+        </div>
+       </div>
+       <h3 class="ms-3 mt-4 text-primary">YAMAHA RX100</h3>
+       <div class="row row-cols-md-2 row-cols-lg-3 ms-5 mt-3 g-3">
+        <div class="col-4">
+            <div class="card shadow" style="width:16rem;">
+                <img class="card-img-top img-fluid" style="height:175px"  
+                src="./assets/images/yamaha/y7.jpg" alt="Card image cap">
+                <div class="card-body">
+                 <p class="card-text fw-bold">RX100
+                   <span class="ms-5 text-danger"> CODE : RX100@1</span><br><br>
+                   Price : ₹6000 - ₹14000</p>
+                </div>
+              </div>
+        </div>
+        <div class="col-4">
+            <div class="card shadow" style="width:16rem;">
+                <img class="card-img-top img-fluid" style="height:175px" 
+                 src="./assets/images/yamaha/y8.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text fw-bold">RX100
+                   <span class="ms-5 text-danger"> CODE : RX100@2</span><br><br>
+                   Price : ₹6000 - ₹14000</p>
+                </div>
+              </div>
+        </div>
+        <div class="col-4">
+            <div class="card shadow" style="width:16rem;">
+                <img class="card-img-top img-fluid" style="height:175px" 
+                 src="./assets/images/yamaha/y9.jpg" alt="Card image cap">
+                <div class="card-body">
+                <p class="card-text fw-bold">RX100
+                   <span class="ms-5 text-danger"> CODE : RX100@3</span><br><br>
+                   Price : ₹6000 - ₹14000</p>
+                </div>
+              </div>
+        </div>
+       </div>
+       
+    </section>
+    <section id="bmw">
+      <h1 class="w-100 text-center ms-1 mt-5 shadow"
+       style="color: red;border-bottom: 5px solid red;">BMW</h1>
+       <h3 class="ms-3 mt-4 text-primary">BMW S 1000RR</h3>
+       <div class="row row-cols-md-2 row-cols-lg-3 ms-5 mt-3 g-2">
+        <div class="col-4">
+            <div class="card shadow" style="width:16rem;">
+                <img class="card-img-top img-fluid" style="height:175px" 
+                 src="./assets/images/bmw/b1.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text fw-bold">S 1000RR
+                   <span class="ms-3 text-danger"> CODE : S1000R@1</span><br><br>
+                   Price : ₹6000 - ₹24000</p>
+                </div>
+              </div>
+        </div>
+        <div class="col-4">
+            <div class="card shadow" style="width:16rem;">
+                <img class="card-img-top img-fluid" style="height:175px"  
+                src="./assets/images/bmw/b2.jpg" alt="Card image cap">
+                <div class="card-body">
+                       <p class="card-text fw-bold">S 1000RR
+                   <span class="ms-3 text-danger"> CODE : S1000R@2</span><br><br>
+                   Price : ₹6000 - ₹24000</p>
+                </div>
+              </div>
+        </div>
+        <div class="col-4">
+            <div class="card shadow" style="width:16rem;">
+                <img class="card-img-top img-fluid" style="height:175px" 
+                 src="./assets/images/bmw/b3.jpg" alt="Card image cap">
+                <div class="card-body">
+                      <p class="card-text fw-bold">S 1000RR
+                   <span class="ms-3 text-danger"> CODE : S1000R@3</span><br><br>
+                   Price : ₹6000 - ₹24000</p>
+                </div>
+              </div>
+        </div>
+       </div>
+       <h3 class="ms-3 mt-4 text-primary">BMW G 310RR</h3>
+       <div class="row row-cols-md-2 row-cols-lg-3 ms-5 mt-3 g-3">
+        <div class="col-4">
+            <div class="card shadow" style="width:16rem;">
+                <img class="card-img-top img-fluid" style="height:175px" 
+                 src="./assets/images/bmw/b4.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text fw-bold">G 310RR
+                   <span class="ms-3 text-danger"> CODE : G 310RR@1</span><br><br>
+                   Price : ₹6000 - ₹19000</p>
+                </div>
+              </div>
+        </div>
+        <div class="col-4">
+            <div class="card shadow" style="width:16rem;">
+                <img class="card-img-top img-fluid" style="height:175px" 
+                 src="./assets/images/bmw/b5.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text fw-bold">G 310RR
+                   <span class="ms-3 text-danger"> CODE : G 310RR@2</span><br><br>
+                   Price : ₹6000 - ₹19000</p>
+                </div>
+              </div>
+        </div>
+        <div class="col-4">
+            <div class="card shadow" style="width:16rem;">
+                <img class="card-img-top img-fluid" style="height:175px"  
+                src="./assets/images/bmw/b6.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text fw-bold">G 310RR
+                   <span class="ms-3 text-danger"> CODE : G 310RR@3</span><br><br>
+                   Price : ₹6000 - ₹19000</p>
+                </div>
+              </div>
+        </div>
+       </div>
+       
+    </section>
+    <section id="ducati">
+      <h1 class="w-100 text-center ms-1 mt-5 shadow"
+       style="color: red;border-bottom: 5px solid red;">DUCATI</h1>
+       <h3 class="ms-3 mt-4 text-primary">DUCATI PANIGALE V4</h3>
+       <div class="row row-cols-md-2 row-cols-lg-3 ms-5 mt-3 g-2">
+        <div class="col-4">
+            <div class="card shadow" style="width:16rem;">
+                <img class="card-img-top img-fluid" style="height:175px" 
+                 src="./assets/images/ducati/d1.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text fw-bold">PANIGALE V4
+                   <span class="ms-3 text-danger"> CODE : PV4@1</span><br><br>
+                   Price : ₹6000 - ₹34000</p>
+                </div>
+              </div>
+        </div>
+        <div class="col-4">
+            <div class="card shadow" style="width:16rem;">
+                <img class="card-img-top img-fluid" style="height:175px" 
+                 src="./assets/images/ducati/d2.jpg" alt="Card image cap">
+                <div class="card-body">
+                 <p class="card-text fw-bold">PANIGALE V4
+                   <span class="ms-3 text-danger"> CODE : PV4@2</span><br><br>
+                   Price : ₹6000 - ₹34000</p>
+                </div>
+              </div>
+        </div>
+        <div class="col-4">
+            <div class="card shadow" style="width:16rem;">
+                <img class="card-img-top img-fluid" style="height:175px" 
+                 src="./assets/images/ducati/d3.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text fw-bold">PANIGALE V4
+                   <span class="ms-3 text-danger"> CODE : PV4@3</span><br><br>
+                   Price : ₹6000 - ₹34000</p>
+                </div>
+              </div>
+        </div>
+       </div>
+       <h3 class="ms-3 mt-4 text-primary">DUCATI STREETFIGHTER V4</h3>
+       <div class="row row-cols-md-2 row-cols-lg-3 ms-5 mt-3 g-3">
+        <div class="col-4">
+            <div class="card shadow" style="width:16rem;">
+                <img class="card-img-top img-fluid" style="height:175px" 
+                 src="./assets/images/ducati/d4.jpg" alt="Card image cap">
+                <div class="card-body">
+                 <p class="card-text fw-bold">SF V4
+                   <span class="ms-5 text-danger"> CODE : SV4@1</span><br><br>
+                   Price : ₹6000 - ₹34000</p>
+                </div>
+              </div>
+        </div>
+        <div class="col-4">
+            <div class="card shadow" style="width:16rem;">
+                <img class="card-img-top img-fluid" style="height:175px"  
+                src="./assets/images/ducati/d5.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text fw-bold">SF V4
+                    <span class="ms-5 text-danger"> CODE : SV4@2</span><br><br>
+                    Price : ₹6000 - ₹34000</p>
+                </div>
+              </div>
+        </div>
+        <div class="col-4">
+            <div class="card shadow" style="width:16rem;">
+                <img class="card-img-top img-fluid" style="height:175px" 
+                 src="./assets/images/ducati/d6.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text fw-bold">SF V4
+                    <span class="ms-5 text-danger"> CODE : SV4@3</span><br><br>
+                    Price : ₹6000 - ₹34000</p>
+                </div>
+              </div>
+        </div>
+       </div>
+       
+    </section>
+    <section id="suzuki">
+      <h1 class="w-100 text-center ms-1 mt-5 shadow"
+       style="color: red;border-bottom: 5px solid red;">SUZUKI</h1>
+       <h3 class="ms-3 mt-4 text-primary">SUZUKI HAYABUSA</h3>
+       <div class="row row-cols-md-2 row-cols-lg-3 ms-5 mt-3 g-2">
+        <div class="col-4">
+            <div class="card shadow" style="width:16rem;">
+                <img class="card-img-top img-fluid" style="height:175px" 
+                 src="./assets/images/suzuki/s1.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text fw-bold">HAYABUSA
+                   <span class="ms-3 text-danger"> CODE : H@1</span><br><br>
+                   Price : ₹6000 - ₹44000</p>
+                </div>
+              </div>
+        </div>
+        <div class="col-4">
+            <div class="card shadow" style="width:16rem;">
+                <img class="card-img-top img-fluid" style="height:175px"
+                  src="./assets/images/suzuki/s2.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text fw-bold">HAYABUSA
+                    <span class="ms-3 text-danger"> CODE : H@2</span><br><br>
+                    Price : ₹6000 - ₹44000</p>
+                </div>
+              </div>
+        </div>
+        <div class="col-4">
+            <div class="card shadow" style="width:16rem;">
+                <img class="card-img-top img-fluid" style="height:175px" 
+                 src="./assets/images/suzuki/s3.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text fw-bold">HAYABUSA
+                    <span class="ms-3 text-danger"> CODE : H@3</span><br><br>
+                    Price : ₹6000 - ₹44000</p>
+                </div>
+              </div>
+        </div>
+       </div>
+       <h3 class="ms-3 mt-4 text-primary"> SUZUKI GSX S1000</h3>
+       <div class="row row-cols-md-2 row-cols-lg-3 ms-5 mt-3 g-3">
+        <div class="col-4">
+            <div class="card shadow" style="width:16rem;">
+                <img class="card-img-top img-fluid" style="height:175px" 
+                 src="./assets/images/suzuki/s4.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text fw-bold">GSX S1000
+                    <span class="ms-3 text-danger"> CODE : GSXS100@1</span><br><br>
+                    Price : ₹6000 - ₹44000</p>
+                </div>
+              </div>
+        </div>
+        <div class="col-4">
+            <div class="card shadow" style="width:16rem;">
+                <img class="card-img-top img-fluid" style="height:175px" 
+                 src="./assets/images/suzuki/s5.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text fw-bold">GSX S1000
+                    <span class="ms-3 text-danger"> CODE : GSXS100@2</span><br><br>
+                    Price : ₹6000 - ₹44000</p>
+                </div>
+              </div>
+        </div>
+        <div class="col-4">
+            <div class="card shadow" style="width:16rem;">
+                <img class="card-img-top img-fluid" style="height:175px"
+                 src="./assets/images/suzuki/s6.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text fw-bold">GSX S1000
+                    <span class="ms-3 text-danger"> CODE : GSXS100@3</span><br><br>
+                    Price : ₹6000 - ₹44000</p>
+                </div>
+              </div>
+        </div>
+       </div>
+       
+    </section>
+  </div>
+
+        </div>
+    </div>
+    
+      
+     </div>
+    
+ </div>
+  
+
+  
+
+
+ <script src="./assets/js/alert.js"></script>
+ <script src="./assets/js/bootstrap.min.js"></script>
+</body>
+</html>
